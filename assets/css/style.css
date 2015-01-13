@@ -10,3 +10,7 @@ body {
 .navbar-brand{
 	padding: 2px
 }
+
+.dl-horizontal dt {
+	text-align: left;
+}
