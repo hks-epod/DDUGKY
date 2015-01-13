@@ -32,19 +32,15 @@ function initialize() {
 
 
     function addMarker(tcenter) {
-      console.log(tcenter);
       var myLatlng = new google.maps.LatLng(tcenter.Latitude, tcenter.Longitude);
-
-
+      
       function contentString() {
-        var content
+        var content = '';
         for (var key in tcenter) {
           content+= '<dt>' + key + '</dt><dd>' + tcenter[key] + '</dd>' ;
         }
         return content
       }
-
-
       var contentString = '<div id="content">' +
         '<div id="siteNotice">' +
         '</div>' +

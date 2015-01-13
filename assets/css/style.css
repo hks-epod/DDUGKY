@@ -2,9 +2,10 @@ body {
   padding-top: 60px
 }
 #map {
-  height: 800px;
+  height: 750px;
   margin: 0;
   padding: 0;
+  border-bottom: solid 1px #555
 }
 .dl-horizontal dt {
   text-align: left;
