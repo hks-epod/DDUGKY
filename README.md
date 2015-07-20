@@ -19,9 +19,5 @@ Clone the repository and run any static server. e.g. ```python -m SimpleHTTPServ
 ### Deployment 
 Master Branch is synced with gh-pages. [Tip](http://brettterpstra.com/2012/09/26/github-tip-easily-sync-your-master-to-github-pages/)
 
-### Authors
-**Ravi Suhag**
-- <http://twitter.com/Ravi_Suhag>
-- <http://github.com/ravisuhag>
-- <http://ravisuhag.com>
+
 
